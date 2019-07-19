@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/opcionActividades"
+        android:title="Actividades">
+        <menu>
+            <item
+                android:id="@+id/opcionLogin"
+                android:title="Login">
+            </item>
+            <item
+                android:id="@+id/opcionBateria"
+                android:title="Bateria">
+            </item>
+            <item
+                android:id="@+id/Lista"
+                android:title="@string/Lista">
+            </item>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/opcionSensores"
+        android:title="Sensores">
+        <menu>
+            <item
+                android:id="@+id/opcionCamara"
+                android:title="Camara">
+            </item>
+            <item
+                android:id="@+id/opcionProximidad"
+                android:title="Proximidad">
+            </item>
+            <item
+                android:id="@+id/opcionLuz"
+                android:title="Luz">
+
+            </item>
+        </menu>
+    </item>
+
+
+</menu>

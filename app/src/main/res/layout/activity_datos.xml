@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DatosActivity"
+    >
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_below="@id/textView"
+        android:layout_marginStart="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Papyrus" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_below="@id/checkBox1"
+        android:layout_marginStart="12dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sans" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_marginStart="12dp"
+        android:layout_below="@id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chiller" />
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_marginStart="12dp"
+        android:layout_below="@id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Times New Roman" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="12dp"
+        android:textSize="18sp"
+        android:layout_height="wrap_content"
+        android:text="Seleccione los tipos de letra:" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_below="@id/checkBox4"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="12dp"
+        android:textSize="18sp"
+        android:layout_height="wrap_content"
+        android:text="Seleccione el color para el texto:" />
+
+    <RadioGroup
+        android:id="@+id/radio"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/textView2"
+        android:layout_marginStart="12dp"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content" >
+        <RadioButton
+            android:id="@+id/rbtn1"
+            android:layout_width="wrap_content"
+            android:text="Morado"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/rbtn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:text="Negro"/>
+        <RadioButton
+            android:id="@+id/rbtn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:text="Rojo"/>
+        <RadioButton
+            android:id="@+id/rbtn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:text="Azul"/>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_below="@id/radio"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="12dp"
+        android:textSize="18sp"
+        android:layout_height="wrap_content"
+        android:text="Escriba el tamaño de letra:" />
+
+    <EditText
+        android:id="@+id/edit1"
+        android:layout_width="80dp"
+        android:text="12"
+        android:hint="Tamaño"
+        android:inputType="number"
+        android:layout_marginStart="12dp"
+        android:layout_below="@id/textView3"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/buttonGuardarCambios"
+        style="?buttonBarButtonStyle"
+        android:layout_width="184dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="124dp"
+        android:layout_marginLeft="124dp"
+        android:layout_marginTop="445dp"
+        android:layout_marginEnd="103dp"
+        android:layout_marginRight="103dp"
+        android:layout_marginBottom="97dp"
+        android:text="Guardar"
+        android:background="@color/colorFondo2"/>
+</RelativeLayout>

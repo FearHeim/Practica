@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">PracticaExamenGamer</string>
+    <string name="imagen">Fondo</string>
+    <string name="pantalla_loca">Pantalla Loca</string>
+    <string name="bateria">Bateria</string>
+    <string name="textBateria">%</string>
+    <string name="recycle">W</string>
+    <string name="recycle2">Lista de Tareas</string>
+    <string name="textoR">TAREA</string>
+    <string name="textoR2">STATUS</string>
+    <string name="Lista">Lista</string>
+    <string name="imagenCam">Sin Imagen Seleccionada</string>
+    <string name="imagenCam2">Sin Imagen Seleccionada</string>
+    <string name="imagencamara">Sin Imagen Seleccionada</string>
+    <string name="buttomcamara">Boton</string>
+
+</resources>
